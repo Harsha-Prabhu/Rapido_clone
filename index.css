@@ -8,7 +8,7 @@
 
 body{
     font-family: "Poppins", sans-serif ;
-    
+    overflow-x: hidden;    
 }
 
 .sticky {
@@ -266,6 +266,9 @@ align-items: center;
     margin-top: 25rem;
     padding-left: 1rem;
 }
+
+/* SECOND SECTION END */
+/* THIRD SECTION STARTS */
 .three{
     height: 100vh;
     margin-top: 15rem;
@@ -285,6 +288,7 @@ align-items: center;
     position: absolute;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
+    z-index: -5;
 }
 .heading-3 h3{
     font-weight: 300;
@@ -320,4 +324,170 @@ align-items: center;
 }
 .lildesc-3{
     font-weight: 400;
+}
+
+/* THIRD SECTION ENDS */
+.four{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose{
+    display :flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+.block.b1 {
+    padding:0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 0.5px solid gray;
+    border-radius: 2rem 0px 0px 0px;
+    
+}
+.block{
+    display: flex;
+    align-items: center;
+}
+
+.block h3{
+    font-weight: 600;
+}
+.block.b2{
+    padding:0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #F9C935;
+    border-radius: 0px 0px 2rem 0px;
+
+}
+
+/* LAST SECTIONS */
+.sixth{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 5rem;
+    z-index: -5;
+}
+
+.left-6{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15rem;
+    margin-top: -20rem;
+    width: 50%; 
+    z-index: -5;    
+    
+}
+
+.right-6{
+    display: flex;
+    margin-left: 2rem;
+    width: 50%;    
+    text-align: left;
+    z-index: -5;
+}
+
+.left-6 h1{
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+
+.left-6 h3{
+    font-weight: 300;
+    margin-top: 2rem;
+
+}
+
+.line6{
+    width: 50px;
+    height: 47px;
+    margin-top: 1rem ;
+    border-bottom: 4px solid #fbcb23;
+    position: absolute;
+    }
+
+.part-l{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.b2{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.part-r{
+    margin-top: 5rem;
+}
+/* SIXTH ENDS */
+/* FOOTER BEGINS */
+.footer{
+    background-color: black;
+    height: 50vh;
+}
+
+.links{
+    display: flex;
+    margin-left: 10rem;
+    padding-top: 4rem;
+}
+
+.cusapp,.capapp,.mininav,.privacy,.follow{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    align-items: center;
+}
+
+.cusapp,.capapp,.mininav,.privacy,.follow h3{
+    color: white ;
+}
+
+.creds h4{
+    color: grey;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    padding-top: 0.5rem;
+}
+
+.divider{
+    background-color: gray;
+    width: 70%;
+    margin-left: 11rem;
+    margin-right: 11rem;
+    height: 1px;
+    margin-top: 3rem ;
+
+}
+
+h5{
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
+.links a{
+    color: white;
+}
+
+.social{
+    display: flex;
+    filter: invert(1);
+    transform: scale(0.65);
+    align-items: center;
+}
+
+.social li{
+    padding: 1rem;
 }
