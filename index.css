@@ -35,6 +35,7 @@ a{
     padding: 5px;
     background-color: transparent;
     position: sticky;
+    z-index: 500;
 }
 
 .nav.color{
@@ -145,7 +146,9 @@ align-items: center;
     
     line-height: 3rem;
 }
-
+.home-desc{
+    z-index: -20;
+}
 .home-desc h3{
     font-size: 20px;
     font-weight: 100;
@@ -186,5 +189,44 @@ align-items: center;
 }
 
 .second{
-    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
 }
+
+.left-2{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    width: 50%; 
+}
+
+.right-2{
+    display: flex;
+    margin-left: 2rem;
+    width: 50%; 
+    flex-direction: column;    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    align-items:flex-start;
+}
+
+.right-2 h1{
+    font-weight: 700;
+    font-size: 30px;
+    padding-right: 11rem;
+}
+
+.right-2 h3{
+    font-weight: 300;
+    margin-top: 2rem;
+
+}
+
+.line{
+    width: 60px;
+    height: 47px;
+    border-bottom: 5px solid #fbcb23;
+    position: absolute;
+    }
