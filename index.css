@@ -327,6 +327,7 @@ align-items: center;
 }
 
 /* THIRD SECTION ENDS */
+/* FOURTH SECTION STARTS */
 .four{
     height: 100vh;
     display: flex;
@@ -345,7 +346,6 @@ align-items: center;
     padding-left: 3rem;
     padding-right: 3rem;
     border: 2px solid rgba(0, 0, 0, 0.1);
-    background-color: #F9C935;
     border-radius: 2rem 0px 0px 0px;
     cursor: pointer;
 }
@@ -367,6 +367,9 @@ align-items: center;
     cursor: pointer;
 
 }
+.yelltog{
+    background-color: #F9C935 !important;
+}
 .customers{
     max-width: 100vw;
     margin-top: 4rem;
@@ -375,6 +378,7 @@ align-items: center;
 
 .vanish{
     display: none;
+    
 }
 .customers img{
     width: 182px;
@@ -412,6 +416,43 @@ align-items: center;
 .cards h4{
     padding-top: 1rem;
     font-weight: 300;
+}
+/* FIFTH SECTION */
+.five{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.dots-5{
+    position: absolute;
+    left: 10rem;
+}
+.testimonials{
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+}
+.previous,.next{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    background-color: gray;
+    border-radius: 1rem;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+.previous h4 ,.next h4{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.test-display{
+    width:55rem;
+    height:20rem;
+    background-color: bisque;
 }
 /* LAST SECTIONS */
 .sixth{
